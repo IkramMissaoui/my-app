@@ -1,0 +1,34 @@
+.ListItems {
+	background-color: #fff;
+	color: #46529d;
+}
+.ListItems p {
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+}
+.ListItems span {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 20px;
+	border: 0.3px solid #ccc;
+}
+.ListItems span.title {
+	background-color: #2ebaee;
+	color: #fff;
+}
+.ListItems span.name {
+	width: 40%;
+}
+.ListItems span.age {
+	width: 30%;
+}
+.ListItems span.action {
+	width: 30%;
+}
+.ListItems span.icon {
+	cursor: pointer;
+	color: red;
+}
